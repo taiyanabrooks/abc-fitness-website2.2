@@ -1,6 +1,20 @@
-
+/* ✅ GENERAL PAGE */
 body {
-    background-color: #000000;
     margin: 0;
+    background-color: #000000;
+    color: #C5C3C3;
 }
-``
+
+/* ✅ PAGE CONTAINER */
+.page-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* ✅ HEADER (ADD IT HERE 👇) */
+.header {
+    width: 1440px;
+    height: 80px;
+    background-color: #AE232D;   /* Cardio Crimson */
+    border: 2px solid #FFFFEE;   /* Ivory */
+}
