@@ -1,50 +1,13 @@
-/* ✅ GENERAL PAGE SETTINGS */
+/* ✅ RESET + BASE */
 body {
-    background-color: #1E1B1C; /* Barbell Black */
-    color: #C5C3C3; /* Willow Gray */
-    font-family: Calibri, sans-serif;
     margin: 0;
-}
-
-/* ✅ HEADER */
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 30px;
-}
-
-/* ✅ LOGO */
-.logo {
-    width: 50px;
-}
-
-/* ✅ SITE TITLE */
-header h1 {
-    margin: 0;
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 24px;
-}
-
-/* ✅ NAVIGATION */
-nav a {
-    text-decoration: none;
+    background-color: #000000;
     color: #C5C3C3;
-    margin-left: 20px;
     font-family: Calibri, sans-serif;
 }
 
-nav a:hover {
-    color: #00FF00; /* Lateral Lime */
+/* ✅ PAGE WIDTH CONTROL */
+.page-container {
+    width: 1440px;
+    margin: 0 auto; /* Center the page */
 }
-
-/* ✅ HERO SECTION */
-.hero {
-    background-color: #00FF00; /* Lateral Lime */
-    text-align: center;
-    padding: 40px;
-    color: black;
-}
-
-/* ✅ MAIN HERO TEXT */
-.hero h2 {
