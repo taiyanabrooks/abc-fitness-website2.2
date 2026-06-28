@@ -1,14 +1,10 @@
-/* ✅ RESET + BASE */
 body {
-    margin: 0;
     background-color: #000000;
-    color: #C5C3C3;
-    font-family: Calibri, sans-serif;
+    margin: 0;
 }
 
-/* ✅ PAGE WIDTH CONTROL */
 .page-container {
     width: 1440px;
-    margin: 0 auto; /* Center the page */
+    margin: 0 auto;
+    color: #C5C3C3;
 }
-``
