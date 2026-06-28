@@ -1,1 +1,70 @@
+/* ✅ GENERAL PAGE STYLING */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
 
+/* ✅ HEADER */
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* ✅ NAVIGATION */
+nav a {
+    color: lime;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ✅ MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+/* ✅ TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+}
+
+/* ✅ IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ✅ BUTTONS */
+button {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* ✅ FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
