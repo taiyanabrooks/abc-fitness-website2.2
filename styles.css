@@ -1,186 +1,82 @@
-/* ============================= */
+/* =============================== */
 /* ✅ BASE PAGE */
-/* ============================= */
+/* =============================== */
 body {
     margin: 0;
     background-color: #1E1B1C; /* Barbell Black */
-    color: #C5C3C3; /* Willow Gray */
+    color: #C5C3C3;
     font-family: Calibri, sans-serif;
 }
 
-/* CENTER THE SITE */
+/* CENTER LAYOUT */
 .page-container {
     width: 1440px;
     margin: 0 auto;
 }
 
-/* ============================= */
-/* ✅ HEADER (WHITE BAR) */
-/* ============================= */
+/* =============================== */
+/* ✅ HEADER (WHITE BAR FULL WIDTH) */
+/* =============================== */
 .header {
     background-color: #FFFFEE; /* Ivory */
+    border-bottom: 4px solid #AE232D;
 }
 
 /* HEADER LAYOUT */
 .header-inner {
-    height: 100px;
+    height: 120px;                 /* ✅ was 80 → now bigger */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 60px;               /* more breathing room */
 }
 
-/* LEFT SIDE (LOGO + TITLE) */
+/* =============================== */
+/* ✅ LEFT SIDE (LOGO + TITLE) */
+/* =============================== */
 .logo-title {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 
-/* LOGO BOX */
+/* WHITE BOX */
 .logo-box {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
-/* LOGO SIZE */
+/* LOGO */
 .logo {
-    width: 80px;
+    width: 120px;                  /* ✅ doubled */
     height: auto;
 }
 
-/* SITE TITLE */
+/* TITLE */
 .site-title {
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 48px;               /* ✅ doubled */
     color: #00231C;
 }
 
-/* NAVIGATION */
+/* =============================== */
+/* ✅ NAVIGATION */
+/* =============================== */
 .nav {
-    margin-right: 60px;
+    margin-right: 60px;            /* pulls away from edge */
 }
 
 .nav a {
     text-decoration: none;
     color: #00231C;
-    font-size: 30px;
-    margin-left: 30px;
+    font-size: 26px;               /* ✅ bigger */
+    margin-left: 40px;             /* spacing between items */
     font-family: Calibri, sans-serif;
 }
 
+/* HOVER EFFECT */
 .nav a:hover {
-    color: #AE232D; /* Cardio Crimson */
+    color: #AE232D;
 }
-
-/* ============================= */
-/* ✅ HERO SECTION */
-/* ============================= */
-.hero {
-    background-color: #00FF00; /* Lateral Lime */
-    text-align: center;
-    padding: 60px 20px;
-}
-
-/* MAIN HEADLINE */
-.hero h2 {
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-/* SUBTEXT */
-.hero p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-/* HERO IMAGE */
-.hero img {
-    max-width: 400px;
-}
-
-/* ============================= */
-/* ✅ PROMO BAR */
-/* ============================= */
-.promos {
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 15px;
-}
-
-.promos p {
-    color: #AE232D; /* Cardio Crimson */
-    font-size: 18px;
-    font-weight: bold;
-}
-
-/* ============================= */
-/* ✅ CLASSES SECTION */
-/* ============================= */
-.classes-section {
-    text-align: center;
-    padding: 30px;
-}
-
-/* SECTION TITLE */
-.classes-section h2 {
-    font-family: "Times New Roman", serif;
-    font-size: 30px;
-}
-
-/* FLEX CONTAINER */
-.classes {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
-/* EACH CLASS BOX */
-.class-box {
-    width: 30%;
-}
-
-/* IMAGE SIZE */
-.class-box img {
-    width: 100%;
-    max-width: 300px;
-}
-
-/* ============================= */
-/* ✅ BENEFITS / HIGHLIGHTS */
-/* ============================= */
-.benefits {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-    font-size: 18px;
-}
-
-/* ============================= */
-/* ✅ SUBSCRIBE SECTION */
-/* ============================= */
-.subscribe {
-    text-align: center;
-    padding: 20px;
-}
-
-/* INPUT + BUTTON */
-input {
-    padding: 10px;
-    width: 200px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #AE232D;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #519C4F;
-}
+``
