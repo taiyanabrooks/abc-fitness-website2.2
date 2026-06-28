@@ -1,8 +1,9 @@
-/* ✅ GENERAL PAGE */
+/* ✅ BASE PAGE */
 body {
     margin: 0;
-    background-color: #000000;
-    color: #C5C3C3;
+    background-color: #1E1B1C; /* Barbell Black */
+    color: #C5C3C3; /* Willow Gray */
+    font-family: Calibri, sans-serif;
 }
 
 /* ✅ PAGE CONTAINER */
@@ -11,10 +12,56 @@ body {
     margin: 0 auto;
 }
 
-/* ✅ HEADER (ADD IT HERE 👇) */
+/* ✅ HEADER (white rectangle full width) */
 .header {
-    width: 1440px;
-    height: 80px;
-    background-color: #AE232D;   /* Cardio Crimson */
-    border: 2px solid #FFFFEE;   /* Ivory */
+    background-color: #FFFFEE; /* Ivory */
+    border-bottom: 2px solid #AE232D; /* subtle bottom stroke */
 }
+
+/* ✅ HEADER CONTENT LAYOUT */
+.header-inner {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* ✅ LEFT SIDE (logo + title) */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+/* ✅ WHITE BOX BEHIND LOGO */
+.logo-box {
+    background-color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* ✅ LOGO */
+.logo {
+    width: 40px;
+}
+
+/* ✅ SITE TITLE */
+.site-title {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #00231C; /* Detritus Green */
+}
+
+/* ✅ NAVIGATION RIGHT SIDE */
+.nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+    color: #00231C;
+}
+
+.nav a:hover {
+    color: #AE232D;
+}
+``
