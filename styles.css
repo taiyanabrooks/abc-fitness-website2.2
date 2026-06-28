@@ -28,9 +28,9 @@ body {
 }
 
 /* ✅ LEFT SIDE (logo + title) */
-.logo-title {
-    display: flex;
-    align-items: center;
+.logo {
+    width: 80px;      /* was ~40–50 before */
+    height: auto;
 }
 
 /* ✅ WHITE BOX BEHIND LOGO */
@@ -45,19 +45,31 @@ body {
     width: 40px;
 }
 
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;   /* spacing between logo and text */
+}
+
 /* ✅ SITE TITLE */
+
 .site-title {
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
-    font-size: 24px;
-    color: #00231C; /* Detritus Green */
+    font-size: 30px;     /* bigger */
+    color: #00231C;
 }
 
 /* ✅ NAVIGATION RIGHT SIDE */
+
+.nav {
+    margin-right: 40px;   /* pulls it away from the right edge */
+}
+
 .nav a {
-    margin-left: 25px;
+    margin-left: 30px;    /* spreads menu items */
+    font-size: 18px;      /* bigger text */
     text-decoration: none;
-    font-family: Calibri, sans-serif;
     color: #00231C;
 }
 
