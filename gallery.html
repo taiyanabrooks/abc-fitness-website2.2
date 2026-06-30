@@ -1,107 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Gallery - ABC Fitness Studio</title>
+    <title>ABC Fitness Studio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<!-- ✅ HEADER -->
-<header>
-    <h1>ABC Fitness Studio</h1>
+    <!-- HEADER -->
+    <header class="header">
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="about.html">About</a> |
-        <a href="classes.html">Classes</a>
-    </nav>
-</header>
+        <div class="header-inner">
 
-<hr>
+            <!-- LEFT SIDE -->
+            <div class="logo-title">
+                <div class="logo-box">
+                    <img src="Client2_LogoPalette1_00FF00.png" class="logo" alt="ABC Fitness Studio Logo">
+                </div>
+                <span class="site-title">ABC Fitness Studio</span>
+            </div>
 
-<!-- ✅ MAIN CONTENT -->
-<main>
+            <!-- RIGHT SIDE -->
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About</a>
+                <a href="classes.html">Classes</a>
+            </nav>
 
-    <h2>Our Classes & Products</h2>
+        </div>
+    </header>
 
-    <!-- ✅ View Cart Button -->
-    <button>View Shopping Cart</button>
+    <!-- HERO 2 SECTION -->
+    <section class="hero2">
 
-    <br><br>
+        </div>
 
-    <!-- ✅ TABLE (REQUIRED STRUCTURE) -->
-    
-<table border="1">
+    </section>
 
-    <!-- ✅ ROW 1 (Classes) -->
-    <tr>
-        <td align="center" width="300">
-            <h3>Yoga Class</h3>
-            <img src="Client2_GroupYoga.png" width="250">
-            <p>Improves flexibility and promotes relaxation.</p>
-            <button>Add to Cart</button>
-        </td>
+    <div class="page-container">
+    <main>
 
-        <td align="center" width="300">
-            <h3>Pilates Class</h3>
-            <img src="Client2_GroupPilates.png" width="250">
-            <p>Focuses on core strength and body control.</p>
-            <button>Add to Cart</button>
-        </td>
+        <!-- TITLE + CART BUTTON -->
+        <section class="gallery-header">
 
-        <td align="center" width="300">
-            <h3>Zumba Class</h3>
-            <img src="Client2_GroupKickboxing.png" width="250">
-            <p>A fun, high-energy workout with dance moves.</p>
-            <button>Add to Cart</button>
-        </td>
-    </tr>
+            <h2>Our Classes & Products</h2>
 
-    <!-- ✅ ROW 2 (Products) -->
-    <tr>
-        <td align="center" width="300">
-            <h3>Yoga Mat</h3>
-            <img src="Client2_YogaMat.png" width="250">
-            <p>Comfortable and durable for daily workouts.</p>
-            <button>Add to Cart</button>
-        </td>
+            <button class="cart-button">View Shopping Cart</button>
 
-        <td align="center" width="300">
-            <h3>Water Bottle</h3>
-            <img src="Client2_WaterBottle.png" width="250">
-            <p>Lightweight and reusable for hydration.</p>
-            <button>Add to Cart</button>
-        </td>
+        </section>
 
-        <td align="center" width="300">
-            <h3>T-Shirt</h3>
-            <img src="Client2_TeeShirt.png" width="250">
-            <p>Comfortable apparel for workouts.</p>
-            <button>Add to Cart</button>
-        </td>
-    </tr>
+        <!-- GALLERY GRID -->
+        <section class="gallery-grid">
 
-</table>
+            <!-- ROW 1 -->
+            <div class="gallery-item">
+                <img src="Client2_YogaMat.png" alt="Yoga Mat">
+                <h3>Yoga Mat</h3>
+                <button>Add to Cart</button>
+            </div>
 
-</main>
+            <div class="gallery-item">
+                <img src="Client2_WaterBottle.png" alt="Water Bottle">
+                <h3>Water Bottle</h3>
+                <button>Add to Cart</button>
+            </div>
 
-<hr>
+            <div class="gallery-item">
+                <img src="Client2_TeeShirt.png" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <button>Add to Cart</button>
+            </div>
 
-<!-- ✅ FOOTER -->
-<footer>
+            <!-- ROW 2 -->
+            <div class="gallery-item">
+                <img src="Client2_GroupYoga.png" alt="Yoga Class">
+                <h3>Yoga Class</h3>
+                <p>Improves flexibility and relaxation.</p>
+                <button>Add to Cart</button>
+            </div>
 
-    <p>Join our fitness community today!</p>
+            <div class="gallery-item">
+                <img src="Client2_GroupPilates.png" alt="Pilates Class">
+                <h3>Pilates Class</h3>
+                <p>Focuses on core strength and body control.</p>
+                <button>Add to Cart</button>
+            </div>
 
-    <form>
-        <label>Email:</label><br>
-        <input type="email" placeholder="Enter Email"><br><br>
-        <button type="submit">Subscribe</button>
-    </form>
+            <div class="gallery-item">
+                <img src="Client2_GroupKickboxing.png" alt="Zumba Class">
+                <h3>Zumba Class</h3>
+                <p>A fun, high-energy workout with dance moves.</p>
+                <button>Add to Cart</button>
+            </div>
 
-</footer>
+        </section>
+
+    </main>
+    </div>    
+
+
+    <!-- JOIN SECTION (separate, not nested) -->
+    <section class="join-section">
+
+        <div class="join-container">
+            <h2>Join Our Fitness Community</h2>
+
+            <p>Stay updated with new classes, promotions, and fitness tips.</p>
+
+            <div class="join-form">
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 </html>
